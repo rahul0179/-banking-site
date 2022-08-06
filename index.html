@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <title>Document</title>
+</head>
+
+<body
+    style="background-image:url(https://th.bing.com/th/id/R.0e5d97c1f9fc662af2d91d08b86a422d?rik=OzhyMnJ%2bWDC9Lw&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0274%2f7429%2f6892%2fproducts%2fnb-308_1200x1200.jpg%3fv%3d1600236748&ehk=6KbX%2fZfVD1ASYLG5o5bwIqEjC1euw1SzN5plsI7ce0k%3d&risl=&pid=ImgRaw&r=0);">
+    <div class="my-16">
+        <p class="font-sans text-5xl text-center font-medium">Lets get some <span
+                class="text-red-700 text-6xl">Mooooney</span>!!!!</p>
+    </div>
+
+    <section class=" flex  justify-center">
+        <main class="flex  space-x-8">
+            <div class="flex flex-col justify-center flex-wrap  w-80 h-32  px-6 bg-indigo-600 rounded-lg">
+                <p class="font-semibold text-3xl text-white py-2 ">Deposit</p>
+                <p class="font-bold text-2xl">$<span id="depositAmount"
+                        class="font-extralight text-white pl-2">00</span></p>
+            </div>
+            <div class="flex flex-col justify-center  w-80 h-32  px-6 bg-red-800 rounded-lg">
+                <p class="font-semibold text-3xl text-white py-2 ">Withdraw</p>
+                <p class="font-bold text-2xl">$<span id="withdrawAmount"
+                        class="font-extralight text-white pl-2">00</span></p>
+            </div>
+            <div class="flex flex-col justify-center  w-80 h-32  px-6 bg-lime-500 rounded-lg ">
+                <p class="font-semibold text-3xl text-white py-2 ">Blance</p>
+                <p class="font-bold text-2xl">$<span id="blanceAmount"
+                        class="font-extralight text-white pl-2">1200</span>
+                </p>
+            </div>
+        </main>
+    </section>
+    <section class="py-6">
+        <main class="flex  justify-center space-x-6">
+            <div class=" flex justify-center flex-col bg-purple-700 w-96 h-42 py-8 ">
+                <p class="pb-2  text-xl text-white text-center font-semibold">Deposit Amount</p>
+                <input class="border-solid border-2 border-black w-52 pl-3 ml-24 " type="text" name=""
+                    id="depositInput">
+                <button id="depositBtn"
+                    class=" border-2 border-black bg-blue-400 text-white mt-2 w-24     px-1 py-1 rounded-lg ml-32 ">Deposit</button>
+            </div>
+            <div class=" flex justify-center flex-col bg-pink-600 w-96 h-42 py-8 ">
+                <p class="pb-2  text-xl text-white text-center font-semibold">Withdraw Amount</p>
+                <input class="border-solid border-2 border-black w-52 pl-3 ml-24 " type="text" name=""
+                    id="withdrawInput">
+                <button id="withdrawBtn"
+                    class=" border-2 border-black bg-blue-400 text-white mt-2 w-24     px-1 py-1 rounded-lg ml-32 ">Withdraw</button>
+            </div>
+        </main>
+    </section>
+
+    <p id="massage" class="flex justify-center text-4xl mt-8  text-red-800 font-bold bg-black "></p>
+
+
+    <script src="js/function.js"></script>
+
+</body>
+
+</html>
